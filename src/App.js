@@ -4,51 +4,58 @@ import { Link } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 
+import appStore from "./assets/app-store.png";
+import mainImage from "./assets/mockup.jpg";
+
 function App() {
   return (
     <div>
-      <div className="relative bg-white pt-40 pb-20 dark:bg-gray-900 lg:pt-44">
+      <div className="relative bg-white pt-40 pb-20 dark:bg-blue-900 lg:pt-44">
         <div className="relative m-auto px-6 xl:container md:px-12 lg:px-6">
-          <h1 className="text-center text-4xl font-black text-red-900 sm:mx-auto sm:w-10/12 sm:text-5xl md:w-2/3 md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
-            Our best-class secure VPN App
+          <h1 className="text-center text-4xl font-black text-blue-900 sm:mx-auto sm:w-10/12 sm:text-5xl md:w-2/3 md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
+            NorthVPN
             <br className="hidden lg:block" />
-            <span className="relative bg-gradient-to-b from-red-700 to-orange-500 bg-clip-text text-transparent dark:from-red-400 dark:to-red-300">
-              Try our timeblock & categorization to-do list
-            </span>
-            .
+            <scan className="text-center text-5xl relative bg-gradient-to-b from-blue-700 to-teal-800 bg-clip-text text-transparent">
+              Your Secure VPN + AdBlocker App
+            </scan>
           </h1>
+
           <div className="lg:flex">
             <div className="relative mt-8 space-y-8 text-center sm:mx-auto sm:w-10/12 md:mt-16 md:w-2/3 lg:ml-0 lg:mr-auto lg:w-7/12 lg:text-left">
               <p className="text-gray-700 dark:text-gray-300 sm:text-lg lg:w-9/12">
-                The most effective way to get things done is <b>focusing</b> on
-                single tasks, that's why time blocking works. When you pair this
-                with putting category on what you want to focus and place your
-                task inside, you will be able to further improve your efficiency
-                and productivity. Separate your day in singular categories and
-                tackle them at a set time frame <b>completely for free.</b>
+                Our Virtual Private Network (VPN) is intended to give you one of
+                the best state of the art, secure experience as you are doing
+                your daily tasks. Privacy is a serious issue nowadays and it's
+                advisable to keep all of your personal data connection secure
+                and reliable.
               </p>
               <span className="block font-semibold text-gray-500 dark:text-gray-400">
-                Your daily companion when you want to get sh*t done.
+                Connect quickly and efficiently to trusted server around the
+                world
               </span>
-              <div className="grid gap-2 md:flex md:justify-center md:space-x-6 lg:justify-start">
-                <div className="flex justify-center space-x-3 ">
-                  <button className="font-medium dark:text-white md:block">
-                    Get started
-                  </button>
+              <div className="grid md:flex lg:justify-start">
+                <div className="flex justify-center">
+                  <span className="font-medium dark:text-white md:block"></span>
                 </div>
 
-                <div className="flex justify-center space-x-4">
-                  <button className="font-medium dark:text-white md:block border-2">
-                    Create an Account
-                  </button>
+                <div className="font-semibold dark:text-gray-300">
+                  🌟
+                  <span className="pl-2 ">
+                    Start your FREE 3-days trial with high-speed browsing.
+                  </span>
+                  <a
+                    href="https://apps.apple.com/us/app/vpn-secure-proxy-shield/id1459783875"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex space-x-4 mt-4"
+                  >
+                    <img
+                      src={appStore}
+                      alt="app-store-icon"
+                      className="font-medium dark:text-white md:block h-20"
+                    />
+                  </a>
                 </div>
-              </div>
-
-              <div className="font-semibold  dark:text-gray-300">
-                🔥🌟
-                <span className="pl-2">
-                  Personalize your categories and containerize your talks
-                </span>
               </div>
             </div>
             <div className="-right-10 mt-12 md:mt-0 lg:absolute lg:w-7/12">
@@ -56,10 +63,10 @@ function App() {
                 <div
                   aria-hidden="true"
                   className="absolute inset-0 m-auto h-full w-full rotate-45 scale-75 rounded-full bg-gradient-to-r 
-                  from-red-500 to-orange-300 blur-3xl md:h-96 md:w-96 md:scale-110"
+                  from-red-500 to-orange-300 md:h-96 md:w-96 md:scale-110"
                 />
                 <img
-                  // src={landingImage}
+                  src={mainImage}
                   className="relative mt-6 w-full"
                   alt="wath illustration"
                   loading="lazy"
