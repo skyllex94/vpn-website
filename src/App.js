@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Header";
 
 import appStore from "./assets/app-store.png";
-import mainImage from "./assets/mockup.jpg";
+import mainImage from "./assets/landing-image.jpg";
 
 function App() {
   return (
