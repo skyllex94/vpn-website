@@ -15,7 +15,7 @@ function App() {
           <div className="m-auto flex flex-col md:flex-row lg:flex-row xl:flex-row justify-center px-6 xl:container md:px-12 lg:px-6">
             <div>
               <h1 className="xl:container text-start font-black text-4xl text-black-900 sm:mx-auto md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
-                GuardVPN
+                MicronVPN
                 <br className="block" />
                 <scan className="text-start text-2xl sm:mx-auto md:text-5xl lg:w-auto lg:text-left xl:text-5xl relative bg-gradient-to-b from-teal-700 to-teal-800 bg-clip-text text-transparent">
                   Your Secure VPN + AdBlocker App
