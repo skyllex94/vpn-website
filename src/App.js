@@ -12,17 +12,17 @@ function App() {
     <div>
       <div>
         <div className="bg-white pt-20 pb-20 lg:pt-20">
-          <div className="m-auto flex px-6 xl:container md:px-12 lg:px-6">
+          <div className="m-auto flex flex-col md:flex-row lg:flex-row xl:flex-row justify-center px-6 xl:container md:px-12 lg:px-6">
             <div>
-              <h1 className="text-center font-black text-4xl text-black-900 sm:mx-auto sm:w-10/12 sm:text-5xl md:w-2/3 md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
-                NorthVPN
-                <br className="hidden lg:block" />
-                <scan className="text-center text-5xl relative bg-gradient-to-b from-teal-700 to-teal-800 bg-clip-text text-transparent">
+              <h1 className="xl:container text-start font-black text-4xl text-black-900 sm:mx-auto md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
+                GuardVPN
+                <br className="block" />
+                <scan className="text-start text-2xl sm:mx-auto md:text-5xl lg:w-auto lg:text-left xl:text-5xl relative bg-gradient-to-b from-teal-700 to-teal-800 bg-clip-text text-transparent">
                   Your Secure VPN + AdBlocker App
                 </scan>
               </h1>
-              <div className="relative mt-8 space-y-8 text-center sm:mx-auto sm:w-10/12 md:mt-16 md:w-2/3 lg:ml-0 lg:mr-auto lg:w-7/12 lg:text-left">
-                <p className="text-gray-700 dark:text-gray-300 sm:text-lg lg:w-9/12">
+              <div className="relative mt-8 space-y-8 text-start">
+                <p className="text-gray-700 dark:text-gray-300 sm:text-lg">
                   Our Virtual Private Network (VPN) is intended to give you one
                   of the best state of the art, secure experience as you are
                   doing your daily tasks. Privacy is a serious issue nowadays
@@ -60,12 +60,12 @@ function App() {
               </div>
             </div>
 
-            <div className="flex lg:flex">
-              <div className="-right-10 mt-12 md:mt-0 lg:w-7/12">
+            <div className="flex">
+              <div className="mt-12">
                 <div className="flex justify-center">
                   <img
                     src={mainImage}
-                    className="landing-image mt-6 w-full"
+                    className="landing-image"
                     alt="vpn display"
                   />
                 </div>

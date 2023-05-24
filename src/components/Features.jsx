@@ -84,7 +84,7 @@ export default function Features() {
           </p>
         </div>
 
-        <div className="p-10 flex flex-col items-center text-center group     hover:bg-slate-50 ">
+        <div className="p-10 flex flex-col items-center text-center group hover:bg-slate-50 ">
           <span className="p-5 rounded-full bg-gray-500 text-white shadow-lg shadow-indigo-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
