@@ -35,7 +35,7 @@ function App() {
                 </span>
                 <div className="grid md:flex lg:justify-start">
                   <div className="flex justify-center">
-                    <span className="font-medium dark:text-white md:block"></span>
+                    <span className="font-medium dark:text-white md:block" />
                   </div>
 
                   <div className="font-semibold dark:text-gray-300">
